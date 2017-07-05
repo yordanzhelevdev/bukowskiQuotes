@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Bubbler+One|Dosis|Satisfy');
+
+html {
+  margin:0;
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  background: url("http://all-that-is-interesting.com/wordpress/wp-content/uploads/2014/08/charles-bukowski-uncensored.jpg")
+    no-repeat
+    center
+    center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+}
+p {
+  font-size: 28px;
+  color: white;
+  font-family: 'Bubbler One', sans-serif;
+}
+
+#quotes-box {
+  margin: 20px auto;
+  border: 1px solid black;
+  width: 500px;
+  border-radius: 7px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#tweetQuote {
+  text-decoration: none;
+  color: white;
+  background-color: lightblue;
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  padding: 3px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  font-size: 23px;
+  opacity: 0.8;
+  -webkit-transition: 1s;
+  /* Safari */
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+#tweetQuote:hover {
+  opacity: 1;
+}
+
+#qbutton {
+  margin-top: 30px;
+  width: 200px;
+  height: 100%;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 25px;
+  font-family: 'Dosis', sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  #quotes-box {
+    width: 100%;
+  }
+}
